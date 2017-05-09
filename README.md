@@ -16,21 +16,21 @@ self.progress = MyWaitProgressDialog('begin...',self)
 
 ---
 
-1.PenStyleGradient
+1. PenStyleGradient
 
-self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenStyleGradient
+	self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenStyleGradient
 
-![ProgressGradient](http://7xtz1f.com2.z0.glb.clouddn.com/image/qtProgress/ProgressGradient.gif-shuiyinBlack)
+	![ProgressGradient](http://7xtz1f.com2.z0.glb.clouddn.com/image/qtProgress/ProgressGradient.gif-shuiyinBlack)
 
-2.PenstylePerGradient
+2. PenstylePerGradient
 
-self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenstylePerGradient
+	self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenstylePerGradient
 
-![ProgressPerGradient](http://7xtz1f.com2.z0.glb.clouddn.com/image/qtProgress/ProgressPerGradient.gif-shuiyinBlack)
+	![ProgressPerGradient](http://7xtz1f.com2.z0.glb.clouddn.com/image/qtProgress/ProgressPerGradient.gif-shuiyinBlack)
 
 
-3.PenstyleNormal
+3. PenstyleNormal
 
-self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenstyleNormal
+	self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenstyleNormal
 
-![ProgressNormal](http://7xtz1f.com2.z0.glb.clouddn.com/image/qtProgress/ProgressNormal.gif-shuiyinBlack)
+	![ProgressNormal](http://7xtz1f.com2.z0.glb.clouddn.com/image/qtProgress/ProgressNormal.gif-shuiyinBlack)
