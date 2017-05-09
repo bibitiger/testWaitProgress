@@ -1,6 +1,10 @@
 #用于PYQT的加载动画，基于QPainter实现
 
+---
+
 ##使用
+
+---
 
 ```
 self.progress = MyWaitProgressDialog('begin...',self)
@@ -9,6 +13,9 @@ self.progress = MyWaitProgressDialog('begin...',self)
 ```
 
 ###分为三种样式
+
+---
+
 1.PenStyleGradient
 
 self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenStyleGradient
