@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
         print('showProgress:{}'.format(isTrue))
         self.timer = QTimer()
         self.timer.timeout.connect(self.timesUp)
-        self.timer.start(10*1000)
+        self.timer.start(30*1000)
 
         self.progress = MyWaitProgressDialog('begin...',self)
         self.progress.RotateStyle = MyRotateProgress.MyRotateProgress.PenStyleNormal
